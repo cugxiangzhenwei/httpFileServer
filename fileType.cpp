@@ -17,6 +17,9 @@ std::string getContentTypeFromFileName(const char* pszFileName)
 		}
 		else if(stricmp(szExt, "txt") == 0
 		|| stricmp(szExt,"cpp")==0
+		|| stricmp(szExt,"c")==0
+		|| stricmp(szExt,"rgs")==0
+		|| stricmp(szExt,"def")==0
 		|| stricmp(szExt,"h")==0
 		|| stricmp(szExt,"bat")==0
 		|| stricmp(szExt,"sh")==0

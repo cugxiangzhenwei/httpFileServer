@@ -19,7 +19,7 @@ clean:
 	rm httpServer $(objs)
 
 dist:
-	tar -jcvf httpServer_1.0.1.tar.bz2 *.cpp *.h MakeFile
+	tar -jcvf httpServer_1.0.1.tar.bz2 *.cpp *.h Makefile
 
 distclean:
 	rm ./httpServer ./httpServer_1.0.1.tar.bz2 $(objs)
